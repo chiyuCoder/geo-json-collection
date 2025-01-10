@@ -15,7 +15,7 @@
   <script>
     (function () {
       const url = new URL(location.href);
-      const jsonName = url.searchParams.get("name");
+      const jsonName = url.searchParams.get("name") || "world";
       const h2Elm = document.body.querySelector("h2");
       h2Elm.innerText = jsonName;
       fetch(`./${jsonName}.json`).then((res) => {
