@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>json</title>
+</head>
+<body>
+  <h1>geo json collection</h1>
+  <h2></h2>
+  <div class="geo-content">
+    <pre></pre>
+  </div>
+
+  <script>
+    (function () {
+      const url = new URL(location.href);
+      const jsonName = url.searchParams.get("name");
+      const h2Elm = document.body.querySelector("h2");
+      h2Elm.innerText = jsonName;
+      fetch(`./${jsonName}.json`).then((res) => {
+        return res.text();
+      }).then((jsonContent) => {
+        const targetElm = document.body.querySelector(".geo-content");
+        const preElm = targetElm.querySelector("pre");
+        preElm.innerText = jsonContent;
+      }).catch((err) => {
+        console.error(err);
+      });
+    })()
+  </script>
+</body>
+</html>
