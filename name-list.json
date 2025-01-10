@@ -1,0 +1,93 @@
+[
+  {
+    "name": "湖北省",
+    "json": "hubei",
+    "children": [
+      {
+        "name": "鄂州市",
+        "json": "hu2_bei3_e4_zhou1",
+        "areaNo": "420700"
+      },
+      {
+        "name": "恩施土家族苗族自治州",
+        "json": "hu2_bei3_en1_shi1_tu3_jia1_zu2_miao2_zu2_zi4_zhi4_zhou1",
+        "areaNo": "422800"
+      },
+      {
+        "name": "黄冈市",
+        "json": "hu2_bei3_huang2_gang1",
+        "areaNo": "421100"
+      },
+      {
+        "name": "黄石市",
+        "json": "hu2_bei3_huang2_shi2",
+        "areaNo": "420200"
+      },
+      {
+        "name": "荆门市",
+        "json": "hu2_bei3_jing1_men2",
+        "areaNo": "420800"
+      },
+      {
+        "name": "荆州市",
+        "json": "hu2_bei3_jing1_zhou1",
+        "areaNo": "421000"
+      },
+      {
+        "name": "潜江市",
+        "json": "hu2_bei3_qian2_jiang1",
+        "areaNo": "429005"
+      },
+      {
+        "name": "神农架林区",
+        "json": "hu2_bei3_shen2_nong2_jia4_lin2_qu1",
+        "areaNo": "429021"
+      },
+      {
+        "name": "十堰市",
+        "json": "hu2_bei3_shi2_yan4",
+        "areaNo": "420300"
+      },
+      {
+        "name": "随州市",
+        "json": "hu2_bei3_sui2_zhou1",
+        "areaNo": "421300"
+      },
+      {
+        "name": "天门市",
+        "json": "hu2_bei3_tian1_men2",
+        "areaNo": "429006"
+      },
+      {
+        "name": "武汉市",
+        "json": "hu2_bei3_wu3_han4",
+        "areaNo": "420100"
+      },
+      {
+        "name": "仙桃市",
+        "json": "hu2_bei3_xian1_tao2",
+        "areaNo": "429004"
+      },
+      {
+        "name": "咸宁市",
+        "json": "hu2_bei3_xian2_ning2",
+        "areaNo": "421200"
+      },
+      {
+        "name": "襄阳市",
+        "json": "hu2_bei3_xiang1_yang2",
+        "areaNo": "420600"
+      },
+      {
+        "name": "孝感市",
+        "json": "hu2_bei3_xiao4_gan3",
+        "areaNo": "420900"
+      },
+      {
+        "name": "宜昌市",
+        "json": "hu2_bei3_yi2_chang1",
+        "areaNo": "420500"
+      }
+    ]
+  }
+]
